@@ -12,18 +12,5 @@ int main() {
 	cout << "请输入您的选择：";
 	cin >> choice;
 	switch (choice)
-	{
-	case 1:
-		PlayerGuess(); break;
-	case 2:
-		ComputerGuess(); break;
-	case 3:
-		RankingList(); break;
-	case 0:
-		return 0;
-	default:
-		cout << "输入错误，请重新选择" << endl;
-		break;
-	}
-	return 1;
+	
 }
